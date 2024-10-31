@@ -25,4 +25,4 @@ jobs:
       run: chmod +x ./node_modules/.bin/jest
 
     - name: Run planet tests
-      run: npm test -- --testPathPattern=planets
+      run: npm test -- --testPathPattern=./api.test.js

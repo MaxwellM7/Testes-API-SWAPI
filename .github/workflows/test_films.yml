@@ -25,4 +25,4 @@ jobs:
       run: chmod +x ./node_modules/.bin/jest
 
     - name: Run film tests
-      run: npm test -- --testPathPattern=films
+      run: npm test -- --testPathPattern=./api.test.js

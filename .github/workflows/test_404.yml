@@ -25,4 +25,4 @@ jobs:
       run: chmod +x ./node_modules/.bin/jest
 
     - name: Run 404 tests
-      run: npm test -- --testPathPattern=404
+      run: npm test -- --testPathPattern=./api.test.js

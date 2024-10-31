@@ -25,4 +25,4 @@ jobs:
       run: chmod +x ./node_modules/.bin/jest
 
     - name: Run starship tests
-      run: npm test -- --testPathPattern=starships
+      run: npm test -- --testPathPattern=./api.test.js
