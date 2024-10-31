@@ -21,5 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Give execute permission to Jest
+      run: chmod +x ./node_modules/.bin/jest
+
     - name: Run 404 tests
       run: npm test -- --testPathPattern=404
